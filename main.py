@@ -10,7 +10,7 @@ import aiogram
 
 today = datetime.datetime.now().strftime("%Y-%m-%d")
 
-token = os.environ["TELEGRAM_TOKEN1"]
+token = os.environ["TELEGRAM_TOKEN2"]
 pg_user = os.environ["PG_USER1"]
 pg_password = os.environ["PG_PASSWORD"]
 pg_host = os.environ["PG_HOST"]

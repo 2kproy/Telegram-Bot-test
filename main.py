@@ -3,14 +3,15 @@ import telebot
 import os
 from metrics_calculator import calculate_metrics
 import yaml
+import aiogram
 
 # with open("secrets.yaml", "rb") as f:
 #     secrets = yaml.safe_load(f)
 
 today = datetime.datetime.now().strftime("%Y-%m-%d")
 
-token = os.environ["TELEGRAM_TOKEN"]
-pg_user = os.environ["PG_USER"]
+token = os.environ["TELEGRAM_TOKEN1"]
+pg_user = os.environ["PG_USER1"]
 pg_password = os.environ["PG_PASSWORD"]
 pg_host = os.environ["PG_HOST"]
 
